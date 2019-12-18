@@ -1,4 +1,4 @@
-#sudo -u opc  -c printf '%s\n' 'Oracle123' 'Oracle123' n | vncpasswd
+#sudo -u opc  -c printf '%s\n' 'Oracle123' 'Oracle1234' n | vncpasswd
 echo "Oracle123" | vncpasswd -f > /tmp/VNCpasswd
 mkdir /home/opc/.vnc	
 chown -R opc:opc /home/opc/.vnc
